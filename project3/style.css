@@ -1,0 +1,368 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  background: linear-gradient(to right, #a0f7ff, #c0f7ff, #e2f1f4);
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.436);
+  border: 1px solid black;
+  color: #fff;
+  position: fixed;
+  top: 0px;
+  height: 80px;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  margin-right: 13px;
+}
+.logo {
+  margin-left: 13px;
+  font-size: 19px;
+  color: black;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  margin-inline: 20px;
+  font-size: 20px;
+  color: black;
+}
+
+ul li a:hover,
+ul li a.active {
+  color: rgb(30, 155, 155);
+  font-weight: 600;
+}
+
+.icon {
+  display: none;
+  align-items: center;
+  font-size: 30px;
+  margin-right: 12px;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 155px;
+}
+.mainText h1 {
+  font-size: 55px;
+  color: rgb(15, 152, 152);
+}
+
+.mainText h2 {
+  font-size: 33px;
+}
+
+.mainText button {
+  width: 120px;
+  height: 34px;
+  background-color: rgb(3, 123, 123);
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+.mainText button:hover {
+  border: 2px solid aqua;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+/* cards */
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.cards .crd {
+  margin-inline: 22px;
+  text-align: center;
+}
+
+.crd i {
+  color: rgb(255, 175, 27);
+  position: relative;
+  top: -11px;
+}
+.crd h3 {
+  margin-top: 1px;
+}
+
+.crd img {
+  transition: transform 0.6s ease;
+  width: 300px;
+  height: 340px;
+}
+
+.crd img:hover {
+  transform: scale(1.1);
+}
+
+.head {
+  padding: 65px;
+  text-align: center;
+}
+
+.head span {
+  color: orangered;
+}
+
+/* review */
+
+.reviews {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.reviews .rCard {
+  width: 260px;
+  height: 270px;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  margin-inline: 20px;
+}
+.rCard:hover {
+  background-color: rgb(86, 81, 81);
+  cursor: pointer;
+  transition: 1s ease;
+}
+.rCard img {
+  margin-top: 20px;
+  width: 42%;
+  border-radius: 50%;
+}
+
+.rCard button {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(14, 226, 226);
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Blogs */
+
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blog .blogCard {
+  width: 300px;
+  padding: 16px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+  margin-inline: 22px;
+}
+.blogCard img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.blogCard a {
+  padding: 4px 20px;
+  background-color: rgb(0, 171, 171);
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.blogCard:hover {
+  transition: 1s ease;
+  cursor: pointer;
+  background-color: gray;
+}
+
+/* contact */
+
+.connect {
+  text-align: center;
+}
+.connect input {
+  width: 340px;
+  font-size: 19px;
+  background-color: transparent;
+  padding: 8px;
+  margin-top: 11px;
+  font-size: 18px;
+  border: 2px solid black;
+}
+
+.connect button {
+  width: 130px;
+  height: 36px;
+  background-color: rgb(0, 171, 171);
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  margin-top: 22px;
+  cursor: pointer;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+  padding: 44px;
+  margin-top: 33px;
+  color: white;
+}
+
+.footer .text p:hover {
+  color: rgb(30, 155, 155);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Items page */
+
+.itemPage {
+  /* display: flex; */
+  display: none;
+  margin-top: 33px;
+  margin-left: 25px;
+}
+.itemPage img {
+  width: 400px;
+}
+.itemPage .itemText {
+  margin-left: 24px;
+}
+.itemText h2 {
+  color: rgb(1, 198, 1);
+}
+.itemPage input {
+  width: 30px;
+  padding: 4px;
+  font-size: 18px;
+}
+.itemText a {
+  padding: 4px 20px;
+  background-color: orangered;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* buy page */
+
+.buyPage {
+  display: none;
+  width: 30%;
+  background-color: white;
+  position: absolute;
+  padding: 22px;
+  left: 43%;
+  right: 50%;
+  top: -15%;
+  border-radius: 4px;
+  transform: translate(-50%, 40%);
+}
+.buyText input {
+  width: 200%;
+  padding: 7px;
+  border: 2px solid black;
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.buyPage .cross {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: rgb(142, 137, 137);
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.buyText button {
+  width: 120px;
+  height: 34px;
+  background-color: rgb(1, 68, 68);
+  color: white;
+  font-size: 20px;
+  border: none;
+  margin-top: 22px;
+}
+
+#buyBtn {
+  cursor: pointer;
+}
+.buyText select {
+  padding: 5px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+  .icon {
+    display: flex;
+    cursor: pointer;
+  }
+  .showData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 58px;
+    background-color: rgb(95, 90, 90);
+    width: 100%;
+    height: 240px;
+    gap: 20px;
+    padding: 0%;
+    text-align: center;
+  }
+  .mainText h1 {
+    font-size: 40px;
+  }
+  .mainText h2 {
+    font-size: 24px;
+  }
+  .crd img {
+    width: 71%;
+  }
+  .connect input {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main img {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .main {
+    display: block;
+    text-align: center;
+  }
+  .main img {
+    margin-top: 20px;
+  }
+}

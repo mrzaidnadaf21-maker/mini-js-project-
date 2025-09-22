@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <style>
+    .marquee {
+      /* width: fit-content; */
+      width: 550px;
+      overflow: hidden;
+      white-space: nowrap;
+      /* position: relative; */
+    }
+
+    .marquee span {
+      display: inline-block;
+      padding-right: 100%;
+      animation: marquee 9s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <!-- <img src="images/logoimg.png" height="70px" width="80px" alt="" /> -->
+          <h2>The fashion hub</h2>
+        </div>
+        <ul>
+          <li><a href="" class="active">Home</a></li>
+          <li><a href="#shop" id="shops">Shop</a></li>
+          <li><a href="#review" id="reviews">Review</a></li>
+          <li><a href="#blog" id="blogs">Blog</a></li>
+          <li><a href="#contact" id="contacts">Contact</a></li>
+        </ul>
+        <div class="icon">
+          <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+
+      <!--Main section-->
+
+      <div class="main">
+        <div class="mainText">
+          <h2>Fashion Hub</h2>
+          <!-- <h1>Fashion For always</h1> -->
+          <h1 class="marquee">
+            <span>Be Unique, Be Fashionable</span
+            ><span>Where Style Meets Comfort</span>
+          </h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+            accusantium?
+          </p>
+          <button>Explore</button>
+        </div>
+        <img src="images/main.png" alt="" />
+      </div>
+
+      <!--Shopping Cards-->
+
+      <div id="home"></div>
+
+      <div class="shop" id="shop">
+        <div class="head">
+          <h1>Trending <span>Cloth's</span></h1>
+        </div>
+        <div class="cards">
+          <div class="crd">
+            <img src="images/img1.webp" alt="" />
+            <h3>Top</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <h3>Rs 220 only</h3>
+          </div>
+          <div class="crd">
+            <img src="images/img2.webp" alt="" />
+            <h3>Top</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <h3>Rs 220 only</h3>
+          </div>
+          <div class="crd">
+            <img src="images/img3.webp" alt="" />
+            <h3>Top</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <h3>Rs 220 only</h3>
+          </div>
+
+          <!-- <div class="crd">
+            <img src="images/img3.webp" alt="" />
+            <h3>Top</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <h3>Rs 220 only</h3>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="crd">
+          <img src="images/img4.webp" alt="" />
+          <h3>Top</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h3>Rs 220 only</h3>
+        </div>
+
+        <div class="crd">
+          <img src="images/img5.webp" alt="" />
+          <h3>Top</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h3>Rs 220 only</h3>
+        </div>
+
+        <div class="crd">
+          <img src="images/img6.webp" alt="" />
+          <h3>Top</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h3>Rs 220 only</h3>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="crd">
+          <img src="images/img7.webp" alt="" />
+          <h3>Top</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h3>Rs 220 only</h3>
+        </div>
+
+        <div class="crd">
+          <img src="images/img8.webp" alt="" />
+          <h3>Top</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h3>Rs 220 only</h3>
+        </div>
+
+        <div class="crd">
+          <img src="images/img9.webp" alt="" />
+          <h3>Top</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <h3>Rs 220 only</h3>
+        </div>
+      </div>
+
+      <!--Review-->
+      <div class="Customer" id="review">
+        <div class="head">
+          <h1>Customer <span>Review</span></h1>
+        </div>
+        <div class="reviews">
+          <div class="rCard">
+            <img src="images/men1.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              omnis modi!
+            </p>
+            <button>More.</button>
+          </div>
+
+          <div class="rCard">
+            <img src="images/men2.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              omnis modi!
+            </p>
+            <button>More.</button>
+          </div>
+
+          <div class="rCard">
+            <img src="images/men1.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              omnis modi!
+            </p>
+            <button>More.</button>
+          </div>
+
+          <div class="rCard">
+            <img src="images/men3.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              omnis modi!
+            </p>
+            <button>More.</button>
+          </div>
+        </div>
+      </div>
+
+      <!--Blog-->
+
+      <div class="read" id="blog">
+        <div class="head">
+          <h1>Read <span>Blog's</span></h1>
+        </div>
+        <div class="blog">
+          <div class="blogCard">
+            <img src="images/img2.webp" alt="" />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Laudantium, quasi.
+            </p>
+            <a href="https://fashionjackson.com/" target="_blank">Read More</a>
+          </div>
+
+          <div class="blogCard">
+            <img src="images/img6.webp" alt="" />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Laudantium, quasi.
+            </p>
+            <a href="https://blog.myntra.com/" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Contact Us-->
+
+      <div class="contact" id="contact">
+        <div class="head">
+          <h1>Contact <span>Us</span></h1>
+        </div>
+        <div class="connect">
+          <input type="text" placeholder="Enter Your name" id="name" /> <br />
+          <input type="text" placeholder="Enter Your Email" id="Number" />
+
+          <br />
+          <button onclick="connect()">Connect</button>
+        </div>
+      </div>
+
+      <!--Footer-->
+
+      <div class="footer">
+        <div class="text">
+          <h2>Shoppy</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Dolore officiis, beatae cum minus blanditiis remLorem <br />
+            Dolore officiis, beatae cum minus blanditiis rem?
+          </p>
+        </div>
+
+        <div class="text">
+          <h2>Explore</h2>
+          <p>All</p>
+          <p>Rated</p>
+          <p>Scores</p>
+          <p>Tips</p>
+          <p>Guide</p>
+        </div>
+
+        <div class="text">
+          <h2>Connect</h2>
+          <p>Youtube</p>
+          <p>Instagram</p>
+          <p>Twitter</p>
+          <p>Facebook</p>
+          <p>Pintarest</p>
+        </div>
+
+        <div class="text">
+          <h2>Nity Grity</h2>
+          <p>Term & Condition</p>
+          <p>Privacy Policy</p>
+          <p>FAQs</p>
+          <p>Specila creadits</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Item Page-->
+    <div class="itemPage">
+      <img id="itmeImg" src="" alt="" />
+      <div class="itemText">
+        <h3>Trending</h3>
+        <h3>Rs 220 Only</h3>
+        <p>Quantity</p>
+        <input type="number" value="1" />
+        <h2>Availabel Offer's</h2>
+        <p>Specila Price Extra 13% off (Price inclusive of cashback/coupone)</p>
+        <p>Bank Offer15% of on UPI Transaction</p>
+        <p>Bank OfferFlat rs200 of on HDFC Bank credit/debit</p>
+        <p>Bank OfferFlat rs200 of on HDFC Bank credit/debit</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+          <br />
+          nesciunt cumque nihil officia! <br />
+        </p>
+        <a href="">Back</a>
+        <a id="buyBtn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="buyPage">
+      <div class="cross">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <div class="buyText"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
