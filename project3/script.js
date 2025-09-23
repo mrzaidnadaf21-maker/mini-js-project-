@@ -18,7 +18,7 @@ let reviews = document.getElementById("reviews");
 let blogs = document.getElementById("blogs");
 let contacts = document.getElementById("contacts");
 
-shops.addEventListener("click", function (e) {
+shops.addEventListener("click", function () {
   //   e.preventDefault();
   shops.style.color = " rgb(30, 155, 155)";
   reviews.style.color = "black";
@@ -56,7 +56,7 @@ let itmeImg = document.getElementById("itmeImg");
 let buyText = document.querySelector(".buyText");
 let buyBtn = document.getElementById("buyBtn");
 
-console.log(crd);
+// console.log(crd);
 
 crd.forEach(function (curvalue) {
   curvalue.addEventListener("click", function () {
